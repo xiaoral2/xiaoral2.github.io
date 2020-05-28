@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- 
+<video width="320" height="240" controls autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+-->
+<html>
+    <head>
+        <title>Xiaoran's Course Work</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Main -->
+                    <div id="main">
+                        <div class="inner">
+
+                            <!-- Header -->
+                                <header id="header">
+                                    <a href="index.html" class="logo"><strong>Homepage</a>
+                                    <ul class="icons">
+					<li><a href="https://www.linkedin.com/in/xiaorali/" class="icon brands fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.facebook.com/xiaoran.a.li" class="icon brands fa fa-facebook"><span class="label">Facebook</span></a></li>
+					</ul>
+                                </header>
+
+                            <!-- Content -->
+                                <section>
+                                    <header class="main">
+                                        <h1>Course Work</h1>
+                                    </header>
+                                    <!--<hr class="major" />-->
+                                    <h2>Deep Learning for Hand-Gesture(<a href="https://github.com/xiaoral2/Deep-Learning-by-Using-MapReduce-"> Code </a>)(<a href="https://github.com/xiaoral2/Deep-Learning-by-Using-MapReduce-/blob/master/274_Group9.pdf"> Report</a>)</h2>
+                                    <ul>University of California, Irvine (2019 winter)</ul>
+                                    <p> The idea of this project is came from stream game. We expect our hand gesture can be read from computer camera.</p>
+                                    <p> Created our own package with different type of hand gesture. Also use keras to analyze data for training, evaluation and make predictions from there. The stream video can read our hands and tell what is the hand gesture read from the camera. The accuracy reached 98%.</p>
+                                    
+                                    <hr class="major" />
+                                    <h2>Defense vs. Hacker(<a href="https://github.com/xiaoral2/Defender-vs.-Hacker-"> Code </a>)(<a href="https://github.com/xiaoral2/Defender-vs.-Hacker-/blob/master/EECS221A%20Project%20Presentation.pdf"> Presentation PPT </a>)</h2>
+                                    <ul>University of California, Irvine (2019 winter)</ul>
+                                    <p> The idea of this project is based on a distributed file system and gradient coding. For this project, We download package from kaggle with three different type of images and stored them in three serves with a patten which introduced in <a href="https://arxiv.org/pdf/1612.03301.pdf"> the gradient coding </a>. </p>
+                                    <p> The project ussed keras method from Machine Learning to analyse images and using sand-blaster method to learn the data and identify the data. One of the server got hacker attacked. Thus, we only can receive two results from three servers. Assuming know the attack source link so we can attack back and recover the server which got damaged.</p>
+                                    
+                                    <hr class="major" />
+                                    <h2>Autonomous Vehicle(<a href="https://github.com/xiaoral2/undergrad_study/tree/master/Autonomous_vehicle"> Code </a>)(<a href="https://github.com/xiaoral2/undergrad_study/blob/master/Autonomous_vehicle/final_poster.pdf"> Poster </a>)</h2>
+                                    <ul>University of California, Irvine (2017 - 2018)</ul>
+                                    <p> This is my senior design project. The robotic implemented by arduino and controlled by three different sensors with a camera. The function of the robotic can merge line, stop or run on a traffic light and find the fastest route to be avoided traffic. </p>
+                                    
+                                    <hr class="major" />
+									<h2>Speaker recognition(<a href="https://github.com/xiaoral2/undergrad_study/tree/master/Speaker_recognition"> Code </a>)(<a href="https://github.com/xiaoral2/undergrad_study/blob/master/Speaker_recognition/Lab_report_Matlab.pdf"> Report </a>)</h2>
+                                    <ul>University of California, Irvine (2016 winter)</ul>
+                                    <p>The project came from DSP lab(EECS 152B) worked with two team members. The goal for this class is study the speaker's frequency. The code for C language to control the board for this class can be found in the <a href="https://github.com/jeffrelt/DSP_Lab"> Github</a>.</p>
+                                    <p>Describe of the project: Using Matlab to classify three input voices and show the real world that the board can have demonstrated the same result. The project is to find the mahalanobis distance of different input voice. My Matlab can have over 60% of accuracy. Best result for a input voice is 94%. The mother board have similar result as Matlab has.</p>
+									<hr class="major" />
+
+									
+
+								</section>
+
+						</div>
+					</div>
+
+<!-- Sidebar -->
+                    <div id="sidebar">
+                        <div class="inner">
+
+                            <!-- Search -->
+                                <section id="search" class="alt">
+                                    <form method="post" action="#">
+                                        <input type="text" name="query" id="query" placeholder="Search" />
+                                    </form>
+                                </section>
+
+                            <!-- Menu -->
+                                <nav id="menu">
+                                    <header class="major">
+                                        <h2>Menu</h2>
+                                    </header>
+                                    <ul>
+                                        <li><a href="index.html">Homepage</a></li>
+                                        <li><a href="public.html">Publication</a></li>
+                                        <li><a href="software.html">Software</a></li>
+                                        <li><a href="personal.html">Personal</a></li>
+                                    </ul>
+                                </nav>
+
+                            <!-- Section -->
+                                <section>
+                                    <header class="major">
+                                        <h2>Contact</h2>
+                                    </header>
+                                    <p>If interest please contact me</p>
+                                    <ul class="contact">
+                                        <li class="icon solid fa-envelope"><a href="#">xiaoral2@uci.edu</a></li>
+                                        <!--<li class="icon solid fa-phone">+1(626) 922-4930</li>
+                                        <li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+                                        Nashville, TN 00000-0000</li>-->
+                                    </ul>
+                                </section>
+
+                        </div>
+                    </div>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

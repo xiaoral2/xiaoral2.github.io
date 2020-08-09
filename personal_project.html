@@ -42,21 +42,27 @@
                                         <h2><a href="course_project.html">Course</a> /
 						<a style="color:blue" href="personal_project.html">Personal</a></h2>
                                     </header>
-                                    <hr class="major" />					
+                                   <style>
+                                   ul.b {
+					  list-style-type: square;
+					}
+				   </style>
+				<hr class="b" />					
                                     <h2>Around: A Geo-index based social network</h2>
-                                    <p> Built a scalable web service in Go to handle posts and deployed to Google Cloud (GAE flex) for better scaling</p>
-                                    <p> Utilized ElasticSearch (GCE) to provide geo-location-based search functions such that users can search nearby
-posts within a distance (e.g. 200km)</p>
-				    <p>Used Google Dataflow to implement a daily dump of posts to BigQuery table for offline analysis</p>
-				    <p> Aggregated the data at the post level and user level to improve the keyword-based spam detection (BigQuery).</p>
+                                    <li> Built a scalable web service in Go to handle posts and deployed to Google Cloud (GAE flex) for better scaling</li>
+                                    <li> Utilized ElasticSearch (GCE) to provide geo-location-based search functions such that users can search nearby
+posts within a distance (e.g. 200km)</li>
+				    <li>Used Google Dataflow to implement a daily dump of posts to BigQuery table for offline analysis</li>
+				    <li> Aggregated the data at the post level and user level to improve the keyword-based spam detection (BigQuery).</li>
 					
-                                    <hr class="major" />					
+                                    <hr class="b" />					
                                     <h2>NBA Player Strength Visualization</h2>
-                                    <p> Created a dashboard to visualize individual player’s shot data, including a shot chart and 4 line/bar charts.</p>
-                                    <p> Implemented linked highlighting among all charts using raised common React state among charts.</p>
-                                    <p> Created a field goal percentage filter to provide more detailed visualization areas with made shots.</p>
-                                    <p> Developed a match filter to more specifically visualize stats for home, away, won and lost matches</p>
-                                    <!--
+                                    <li> Created a dashboard to visualize individual player’s shot data, including a shot chart and 4 line/bar charts.</li>
+                                    <li> Implemented linked highlighting among all charts using raised common React state among charts.</li>
+                                    <li> Created a field goal percentage filter to provide more detailed visualization areas with made shots.</li>
+                                    <li> Developed a match filter to more specifically visualize stats for home, away, won and lost matches</li>
+				
+				<!--
                                     <hr class="major" />
                                     <h2>Autonomous Vehicle(<a href="https://github.com/xiaoral2/undergrad_study/tree/master/Autonomous_vehicle"> Code </a>)(<a href="https://github.com/xiaoral2/undergrad_study/blob/master/Autonomous_vehicle/final_poster.pdf"> Poster </a>)</h2>
                                     <ul>University of California, Irvine (2017 - 2018)</ul>
